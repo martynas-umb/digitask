@@ -2,7 +2,6 @@
 
 <section class="intro">
   <div class="main-container">
-<!--    <div class="mobile-wrapper">-->
     <div class="intro-content">
       <h1><?php echo get_field('intro_title'); ?></h1>
       <div class="text-wrapper">
@@ -32,7 +31,6 @@
       echo wp_get_attachment_image($section_img_id, 'full');
       ?>
     </div>
-<!--    </div>-->
     <div class="break"></div>
     <div class="scroll-down">
       <p>SCROLL DOWN</p>

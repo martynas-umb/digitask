@@ -396,12 +396,6 @@ section.intro .main-container {
   flex-wrap: wrap;
 }
 
-.intro .mobile-wrapper {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-
 section.intro .intro-content {
   max-width: 70rem;
 }
@@ -603,12 +597,7 @@ section.refuel .color-wrapper {
   .site-logo img {
     width: 85%;
   }
-
-  .intro .mobile-wrapper {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-
+  
   section.intro {
     margin-top: 20rem;
   }
