@@ -85,4 +85,8 @@
     </div>
   </div>
 </section>
+
+  <?php echo do_shortcode('[display_news]') ?>
+  <?php echo do_shortcode('[display_news slider="true"]') ?>
+
 <?php get_footer(); ?>
